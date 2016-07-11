@@ -26,3 +26,8 @@ The finished texts and repository structure will be added after the workshop is 
 - [Nemo](https://github.com/Capitains/flask-capitains-nemo) is a user interface, starting to grow as a CMS (Content Manager System) which reads its core data from standard CTS API calls (and so is compliant with any standard CTS API normally) and is starting, as of the beta of 1.0.0, to accept annotation resources such as treebank and images
 in the form of plugins
 - [Hooktest](https://github.com/Capitains/hooktest) is a software developed to make unit tests on XML repository regarding CapiTainS Complances
+
+## HookTest, Nemo, and Nautilus Setup
+
+- For more information about setting up a local version of HookTests and Nautilus and Nemo, see the tutorial videos here: http://capitains.github.io/pages/tutorials
+- If you are on Linux, see: https://github.com/Capitains/docker-capitains-nemo-nautilus and https://github.com/Capitains/docker-hooktest
