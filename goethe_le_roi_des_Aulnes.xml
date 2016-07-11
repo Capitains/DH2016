@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>http://www.lexilogos.com/allemand_goethe.htm</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Johann Wolfgang von Goethe</author>
+                    <title xml:lang="fra">Le Roi des Aulnes</title>
+                    <title xml:lang="deu">Der Erlkoenig</title>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="translation" xml:lang="fre" n="">
+                <div type="textpart" subtype="poem" n="">
+                    <head>Le Roi des Aulnes</head>
+                    <l n="">Quel est ce cavalier qui file si tard dans la nuit et le vent ?</l>
+                    <l n="">C'est le père avec son enfant ;</l>
+                    <l n="">Il serre le jeune garçon dans son bras,</l>
+                    <l n="">Il le serre bien, il lui tient chaud.</l>
+                
+                    <l n="">Mon fils, pourquoi caches-tu avec tant d'effroi ton visage ?</l>
+                    <l n="">Père, ne vois-tu pas le Roi des Aulnes ?</l>
+                    <l n="">Le Roi des Aulnes avec sa traîne et sa couronne ?</l>
+                    <l n="">Mon fils, c'est un banc de brouillard.</l>
+                
+                    <l n="">"Cher enfant, viens donc avec moi !</l>
+                    <l n="">Je jouerai à de très beaux jeux avec toi,</l>
+                    <l n="">Il y a de nombreuses fleurs de toutes les couleurs sur le rivage,</l>
+                    <l n="">Et ma mère possède de nombreux habits d'or."</l>
+                
+                    <l n="">Mon père, mon père, et n'entends-tu pas,</l>
+                    <l n="">Ce que le Roi des Aulnes me promet à voix basse ?</l>
+                    <l n="">Sois calme, reste calme, mon enfant !</l>
+                    <l n="">C'est le vent qui murmure dans les feuilles mortes.</l>
+                
+                    <l n="">"Veux-tu, gentil garçon, venir avec moi ?</l>
+                    <l n="">Mes filles s'occuperont bien de toi</l>
+                    <l n="">Mes filles mèneront la ronde toute la nuit,</l>
+                    <l n="">Elles te berceront de leurs chants et de leurs danses."</l>
+                
+                    <l n="">Mon père, mon père, ne vois-tu pas là-bas</l>
+                    <l n="">Les filles du Roi des Aulnes dans ce lieu sombre ?</l>
+                    <l n="">Mon fils, mon fils, je vois bien :</l>
+                    <l n="">Ce sont les vieux saules qui paraissent si gris.</l>
+                
+                    <l n="">"Je t'aime, ton joli visage me charme,</l>
+                    <l n="">Et si tu ne veux pas, j'utiliserai la force."</l>
+                    <l n="">Mon père, mon père, maintenant il m'empoigne !</l>
+                    <l n="">Le Roi des Aulnes m'a fait mal !</l>
+                
+                    <l n="">Le père frissonne d'horreur, il galope à vive allure,</l>
+                    <l n="">Il tient dans ses bras l'enfant gémissant,</l>
+                    <l n="">Il arrive à grand peine à son port ;</l>
+                    <l n="">Dans ses bras l'enfant était mort.</l> 
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
