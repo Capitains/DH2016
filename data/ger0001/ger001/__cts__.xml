@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:gerLit:ger0001" urn="urn:cts:gerLit:ger0001.ger001" xml:lang="ger">
+    <ti:title xml:lang="ger">Der Erlkoenig</ti:title>
+    <ti:title xml:lang="fre">Le Roi des Aulnes</ti:title>
+    
+    <ti:edition workUrn="urn:cts:gerLit:ger0001.ger001" urn="urn:cts:gerLit:ger0001.ger001.opp-ger1">
+        <ti:label xml:lang="ger">Der Erlkönig</ti:label>
+        <ti:description xml:lang="ger">Johann Wolfgang von Goethe, Der Erlkönig</ti:description>
+    </ti:edition>
+    
+    <ti:translation workUrn="urn:cts:gerLit:ger0001.ger001" urn="urn:cts:gerLit:ger0001.ger001.opp-fre1" xml:lang="fre">
+        <ti:label xml:lang="fre">Le Roi des Aulnes</ti:label>
+        <ti:description xml:lang="fre">Johann Wolfgang von Goethe, Le Roi des Aulnes</ti:description>
+    </ti:translation>
+    
+</ti:work>
+
+

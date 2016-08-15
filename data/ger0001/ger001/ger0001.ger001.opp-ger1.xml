@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>http://www.lexilogos.com/allemand_goethe.htm</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Johann Wolfgang von Goethe</author>
+                    <title xml:lang="deu">Der Erlkoenig</title>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"/>
+                <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="ger" n="urn:cts:gerLit:ger0001.ger001.opp-ger1">
+                <div type="textpart" subtype="poem" n="1">
+                    <head>Der Erlkönig</head>
+                    <l n="1">Wer reitet so spät durch Nacht und Wind ?</l>
+                    <l n="2">Es ist der Vater mit seinem Kind ;</l>
+                    <l n="3">Er hat den Knaben wohl in dem Arm,</l>
+                    <l n="4">Er faßt ihn sicher, er hält ihn warm.</l>
+                
+                    <l n="5">Mein Sohn, was birgst du so bang dein Gesicht ?-</l>
+                    <l n="6">Siehst Vater, du den Erlkönig nicht ?</l>
+                    <l n="7">Den Erlenkönig mit Kron und Schweif ?-</l>
+                    <l n="8">Mein Sohn, es ist ein Nebelstreif. -</l>
+                
+                    <l n="9">"Du liebes Kind, komm, geh mit mir !</l>
+                    <l n="10">Gar schöne Spiele spiel ich mit dir ;</l>
+                    <l n="11">Manch bunte Blumen sind an dem Strand,</l>
+                    <l n="12">Meine Mutter hat manch gülden Gewand."</l>
+                
+                    <l n="13">Mein Vater, mein Vater, und hörest du nicht,</l>
+                    <l n="14">Was Erlenkönig mir leise verspricht ?-</l>
+                    <l n="15">Sei ruhig, bleibe ruhig, mein Kind !</l>
+                    <l n="16">In dürren Blättern säuselt der Wind.-</l>
+                
+                    <l n="17">"Willst, feiner Knabe, du mit mir gehn ?</l>
+                    <l n="18">Meine Töchter sollen dich warten schön ;</l>
+                    <l n="19">Meine Töchter führen den nächtlichen Reihn</l>
+                    <l n="20">Und wiegen und tanzen und singen dich ein."</l>
+                
+                    <l n="21">Mein Vater, mein Vater, und siehst du nicht dort</l>
+                    <l n="22">Erlkönigs Töchter am düstern Ort ?-</l>
+                    <l n="23">Mein Sohn, mein Sohn, ich seh es genau :</l>
+                    <l n="24">Es scheinen die alten Weiden so grau.-</l>
+                
+                    <l n="25">"Ich liebe dich, mich reizt deine schöne Gestalt ;</l>
+                    <l n="26">Und bist du nicht willig, so brauch ich Gewalt."</l>
+                    <l n="27">Mein Vater, mein Vater, jetzt faßt er mich an !</l>
+                    <l n="28">Erlkönig hat mir ein Leids getan !</l>
+                
+                    <l n="29">Dem Vater grauset's, er reitet geschwind,</l>
+                    <l n="30">Er hält in den Armen das ächzende Kind,</l>
+                    <l n="31">Erreicht den Hof mit Mühe und Not ;</l>
+                    <l n="32">In seinen Armen das Kind war tot.</l>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
